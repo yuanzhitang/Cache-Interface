@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cache-Interface-Framework",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{4BB79009-9175-4BCD-9558-C1F2E0E3D05C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{2B8946C6-38F9-4D8B-9B60-364305227988}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,16 +31,11 @@ Global
 		{4BB79009-9175-4BCD-9558-C1F2E0E3D05C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4BB79009-9175-4BCD-9558-C1F2E0E3D05C}.Release|x64.ActiveCfg = Release|x64
 		{4BB79009-9175-4BCD-9558-C1F2E0E3D05C}.Release|x64.Build.0 = Release|x64
-		{2B8946C6-38F9-4D8B-9B60-364305227988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2B8946C6-38F9-4D8B-9B60-364305227988}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2B8946C6-38F9-4D8B-9B60-364305227988}.Debug|x64.ActiveCfg = Debug|x64
-		{2B8946C6-38F9-4D8B-9B60-364305227988}.Debug|x64.Build.0 = Debug|x64
-		{2B8946C6-38F9-4D8B-9B60-364305227988}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2B8946C6-38F9-4D8B-9B60-364305227988}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2B8946C6-38F9-4D8B-9B60-364305227988}.Release|x64.ActiveCfg = Release|x64
-		{2B8946C6-38F9-4D8B-9B60-364305227988}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D0D605B-D70A-4D9E-93C6-821360EC9E54}
 	EndGlobalSection
 EndGlobal
